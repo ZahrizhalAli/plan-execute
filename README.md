@@ -27,7 +27,7 @@ Inspired by [Manus AI](https://manus.ai/), it leverages **LangGraph** for orches
 ## Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cgai.git
+git clone https://github.com/ZahrizhalAli/cgai.git
 cd cgai-demo
 
 # Install dependencies
