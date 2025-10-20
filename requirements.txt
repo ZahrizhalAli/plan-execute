@@ -2,4 +2,5 @@ langgraph
 streamlit
 langchain-openai
 langchain-community
+langchain-ollama
 python-dotenv

@@ -15,7 +15,7 @@ from playwright.async_api import async_playwright
 load_dotenv()
 
 
-prompt = hub.pull("wfh/web-voyager")
+prompt = hub.pull("hsavasere/web-voyager-checkpoimt2")
 
 class BBox(TypedDict):
     x: float

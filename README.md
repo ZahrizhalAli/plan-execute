@@ -13,10 +13,15 @@ Inspired by [Manus AI](https://manus.ai/), it leverages **LangGraph** for orches
 - 📊 **Report Generation** – Summarizes past steps and results into a clean Markdown report.  
 
 ## How It Works
-1. **Input a query** (e.g., “Summarize the latest AI research on protein folding”).  
+1. **Input a query** (e.g., "Summarize the latest AI research on protein folding").  
 2. The app **plans tasks** using Ollama GPT.  
 3. The app **executes tasks**, browsing the web and extracting insights.  
 4. A **final report** is generated in `report.md`.  
+
+## Demo
+Watch the app in action:
+
+![Demo Video](content/demo-plan.mp4)
 
 ## Tech Stack
 - [LangGraph](https://www.langchain.com/langgraph) – Workflow orchestration  
