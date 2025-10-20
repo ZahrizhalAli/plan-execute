@@ -21,7 +21,8 @@ Inspired by [Manus AI](https://manus.ai/), it leverages **LangGraph** for orches
 ## Demo
 Watch the app in action:
 
-<video src="content/demo-plan.mp4" width="320" height="240" controls></video>
+
+https://github.com/user-attachments/assets/9ea5a974-edde-418b-afce-3f3fdeaf5f51
 
 ## Tech Stack
 - [LangGraph](https://www.langchain.com/langgraph) – Workflow orchestration  
