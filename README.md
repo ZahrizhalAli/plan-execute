@@ -13,7 +13,7 @@ Inspired by [Manus AI](https://manus.ai/), it leverages **LangGraph** for orches
 - 📊 **Report Generation** – Summarizes past steps and results into a clean Markdown report.  
 
 ## How It Works
-1. **Input a query** (e.g., "Summarize the latest AI research on protein folding").  
+1. **Input a query** (e.g., "where's ezra cornell lives in the past?").  
 2. The app **plans tasks** using Ollama GPT.  
 3. The app **executes tasks**, browsing the web and extracting insights.  
 4. A **final report** is generated in `report.md`.  
@@ -21,19 +21,19 @@ Inspired by [Manus AI](https://manus.ai/), it leverages **LangGraph** for orches
 ## Demo
 Watch the app in action:
 
-![Demo Video](content/demo-plan.mp4)
+<video src="content/demo-plan.mp4" width="320" height="240" controls></video>
 
 ## Tech Stack
 - [LangGraph](https://www.langchain.com/langgraph) – Workflow orchestration  
 - [Streamlit](https://streamlit.io) – Interactive UI  
 - [Ollama](https://ollama.ai) – Local LLM execution  
-- GPT Vision Model – Web content analysis  
+- OpenAI GPT Vision Model – Web content analysis  
 
 ## Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/ZahrizhalAli/cgai.git
-cd cgai-demo
+git clone https://github.com/ZahrizhalAli/plan-execute.git
+cd plan-execute
 
 # Install dependencies
 pip install -r requirements.txt
